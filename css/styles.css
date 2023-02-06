@@ -1,0 +1,157 @@
+:root {
+  /* IRIS */
+  --color-primary-brand: #4D5AE5;
+  /* OCEAN */
+  --color-pressed-state: #404BBF;
+  /* NAVY BLUE */
+  --color-dark: #2E2F42;
+  /* GREEN */
+  --color-success: #31D0AA;
+  /* SLATE */
+  --color-text: #434455;
+  /* LIGHT SLATE */
+  --color-subtle-text: #8E8F99;
+  /* CORNFLOWER */
+  --color-accent: #E7E9FC;
+  /* CLOUD */
+  --color-light: #F4F4FD;
+  /* NAVY BLUE MODAL*/
+  --color-modal-overlay: rgba(46, 47, 66, 0.4);
+  /* GREY */
+  --color-hero-background: rgba(46, 47, 66, 0.7);
+  /* WHITE */
+  --color-white: #fff;
+}
+
+/* Base */
+body {
+  color: var(--color-text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--color-white);
+}
+
+.hidden {
+  display: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+/* Header */
+.logo {
+  color: var(--color-dark);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.logo>span {
+  color: var(--color-primary-brand);
+}
+
+.header-link {
+  color: var(--color-dark);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.address-link {
+  color: var(--color-text);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.current,
+.header-link:hover,
+.header-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-pressed-state);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--color-dark);
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+}
+
+.button {
+  color: var(--color-white);
+  background-color: var(--color-primary-brand);
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-filter {
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
+  border-color: var(--color-accent);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--color-white);
+  background-color: var(--color-pressed-state);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color-pressed-state);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-section {
+  background-color: var(--color-light);
+}
+
+.team-card {
+  background-color: var(--color-white);
+}
+
+.project-card {
+  background-color: var(--color-white);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-dark);
+}
+
+.footer p {
+  color: var(--color-accent);
+}
+
+.footer .logo {
+  color: var(--color-light);
+}
