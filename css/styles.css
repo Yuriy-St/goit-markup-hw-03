@@ -83,7 +83,6 @@ address {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 .text-centered {
@@ -271,6 +270,25 @@ address {
 .team-item-thumb {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+/* #endregion */
+
+/* #region Footer */
+.footer {
+  color: var(--color-accent);
+  background-color: var(--color-dark);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-content {
+  width: 264px;
+}
+
+.footer .logo {
+  color: var(--color-light);
+  padding-bottom: 16px;
 }
 
 /* #endregion */
