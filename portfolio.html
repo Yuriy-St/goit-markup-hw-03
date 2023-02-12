@@ -58,123 +58,154 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1 class="hidden">Our Portfolio</h1>
+      <section class="portfolio">
+        <div class="container">
+          <h1 class="porfolio-title visually-hidden">Our Portfolio</h1>
 
-        <!-- Filters -->
-        <ul>
-          <li>
-            <button type="button" class="button button-filter">All</button>
-          </li>
-          <li>
-            <button type="button" class="button button-filter">Web Site</button>
-          </li>
-          <li>
-            <button type="button" class="button button-filter">App</button>
-          </li>
-          <li>
-            <button type="button" class="button button-filter">Design</button>
-          </li>
-          <li>
-            <button type="button" class="button button-filter">
-              Marketing
-            </button>
-          </li>
-        </ul>
+          <!-- Filters -->
+          <ul class="filter-list list">
+            <li class="filter-item">
+              <button type="button" class="filter-button button">All</button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-button button">
+                Web Site
+              </button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-button button">App</button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-button button">Design</button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-button button">
+                Marketing
+              </button>
+            </li>
+          </ul>
 
-        <!-- Our work -->
-        <ul>
-          <li class="project-card">
-            <img
-              src="./images/businesscards.jpg"
-              alt="Digital desktop with business cards"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Banking App Interface Concept</h2>
-            <p>App</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/paywithphone.jpg"
-              alt="A person pays with a smartphone"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Cashless Payment</h2>
-            <p>Marketing</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/relaxingscreen.jpg"
-              alt="Relaxing screen theme on various devices"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Meditaion App</h2>
-            <p>App</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/steeringwheel.jpg"
-              alt="A person holds the steering wheel in a superior automobile"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Taxi Service</h2>
-            <p>Marketing</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/screenillstrations.jpg"
-              alt="Nice different screen illustrations on a smartphone"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Screen Illustrations</h2>
-            <p>Design</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/girlwithearbuds.jpg"
-              alt="A girl with earbuds"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Online Courses</h2>
-            <p>Marketing</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/instacards.jpg"
-              alt="Cards with gorgeous people and different digital devices"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Instagram Stories Concept</h2>
-            <p>Design</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/netbagfruits.jpg"
-              alt="A young woman with fruits and vegetables in a net bag"
-              width="360"
-              height="300"
-            />
-            <h2 class="subtitle">Organic Food</h2>
-            <p>Web Site</p>
-          </li>
-          <li class="project-card">
-            <img
-              src="./images/coffee.jpg"
-              alt="A barista pours milk into a cup of coffee"
-              width="360"
-              height="300"
-            />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
-          </li>
-        </ul>
+          <!-- Our work -->
+          <ul class="projects-list list">
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/businesscards.jpg"
+                alt="Digital desktop with business cards"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Banking App Interface Concept</h2>
+                <p class="card-text">App</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/paywithphone.jpg"
+                alt="A person pays with a smartphone"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Cashless Payment</h2>
+                <p class="card-text">Marketing</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/relaxingscreen.jpg"
+                alt="Relaxing screen theme on various devices"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Meditaion App</h2>
+                <p class="card-text">App</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/steeringwheel.jpg"
+                alt="A person holds the steering wheel in a superior automobile"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Taxi Service</h2>
+                <p class="card-text">Marketing</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/screenillstrations.jpg"
+                alt="Nice different screen illustrations on a smartphone"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Screen Illustrations</h2>
+                <p class="card-text">Design</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/girlwithearbuds.jpg"
+                alt="A girl with earbuds"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Online Courses</h2>
+                <p class="card-text">Marketing</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/instacards.jpg"
+                alt="Cards with gorgeous people and different digital devices"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Instagram Stories Concept</h2>
+                <p class="card-text">Design</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/netbagfruits.jpg"
+                alt="A young woman with fruits and vegetables in a net bag"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Organic Food</h2>
+                <p class="card-text">Web Site</p>
+              </div>
+            </li>
+            <li class="project-card">
+              <img
+                class="card-image"
+                src="./images/coffee.jpg"
+                alt="A barista pours milk into a cup of coffee"
+                width="360"
+                height="300"
+              />
+              <div class="card-thumb">
+                <h2 class="card-subtitle">Fresh Coffee</h2>
+                <p class="card-text">Web Site</p>
+              </di >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
