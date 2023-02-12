@@ -24,7 +24,7 @@
 }
 
 
-/* Reset */
+/* #region Reset */
 body {
   color: var(--color-text);
   font-family: 'Roboto', sans-serif;
@@ -76,7 +76,9 @@ address {
   font-style: normal;
 }
 
-/* Components */
+/* #endregion */
+
+/* #region Components */
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -88,7 +90,17 @@ address {
   text-align: center;
 }
 
-/* Utility */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--color-dark);
+  margin-bottom: 72px;
+}
+
+/* #endregion */
+
+/* #region Utility */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -102,7 +114,9 @@ address {
   overflow: hidden;
 }
 
-/* Header */
+/* #endregion */
+
+/* #region Header */
 .header {
   color: var(--color-dark);
 }
@@ -165,7 +179,9 @@ address {
   gap: 40px;
 }
 
-/* Hero */
+/* #endregion */
+
+/* #region Hero */
 .hero {
   color: var(--color-white);
   background-color: var(--color-dark);
@@ -189,7 +205,9 @@ address {
   margin-right: auto;
 }
 
-/* Benefits */
+/* #endregion */
+
+/* #region Benefits */
 .benefits {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -209,13 +227,11 @@ address {
   padding-bottom: 8px;
 }
 
-/* Illustrations */
-.illustrations-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  color: var(--color-dark);
-  margin-bottom: 72px;
+/* #endregion */
+
+/* #region Illustrations*/
+.illustrations {
+  padding-bottom: 120px;
 }
 
 .illustrations-list {
@@ -223,3 +239,38 @@ address {
   align-items: center;
   gap: 24px;
 }
+
+/* #endregion */
+
+/* #region Our team */
+.team {
+  background-color: var(--color-light);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.team-list-item {
+  background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-dark);
+  padding-bottom: 8px;
+}
+
+.team-item-thumb {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* #endregion */
