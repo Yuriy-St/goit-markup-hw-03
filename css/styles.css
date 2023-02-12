@@ -208,3 +208,18 @@ address {
   color: var(--color-dark);
   padding-bottom: 8px;
 }
+
+/* Illustrations */
+.illustrations-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--color-dark);
+  margin-bottom: 72px;
+}
+
+.illustrations-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
