@@ -117,7 +117,6 @@ address {
 
 /* #region Header */
 .header {
-  color: var(--color-dark);
   border-bottom: 1px solid var(--color-accent);
 }
 
@@ -140,6 +139,7 @@ address {
 .nav {
   display: flex;
   align-items: center;
+  color: var(--color-dark);
   margin-right: auto;
 }
 
@@ -147,6 +147,8 @@ address {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
@@ -195,7 +197,7 @@ address {
 
 .footer .logo {
   color: var(--color-light);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 /* #endregion */
@@ -209,10 +211,12 @@ address {
 }
 
 .hero-title {
-  font-weight: 700;
+  width: 500px;
   font-size: 56px;
   line-height: 1.07;
-  padding-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -243,12 +247,16 @@ address {
   gap: 24px;
 }
 
+.benefits-item {
+  flex-basis: 264px;
+}
+
 .benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-dark);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* #endregion */
@@ -289,32 +297,35 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-dark);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-item-thumb {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 /* #endregion */
 
 /* #region Portfolio */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .filter-button {
   font-weight: 500;
   color: var(--color-primary-brand);
   background-color: var(--color-light);
-  border: 1px solid var(--color-dark);
-  border-radius: 4px;
+  border: none;
   padding: 12px 24px 12px 24px;
 }
 
@@ -328,11 +339,8 @@ address {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 24px;
-  padding-bottom: 120px;
+  gap: 48px 24px;
 }
-
-.project-card {}
 
 .card-thumb {
   border-left: 1px solid var(--color-accent);
@@ -348,10 +356,8 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-dark);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 
 }
-
-.card-text {}
 
 /* #endregion */
